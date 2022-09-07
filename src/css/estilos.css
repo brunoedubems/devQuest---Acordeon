@@ -1,0 +1,21 @@
+html {
+  background-color: #e5e5e5;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.acordeon {
+  width: 900px;
+  min-height: 347px;
+  box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  position: relative;
+}
