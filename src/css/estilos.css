@@ -36,6 +36,10 @@ font-size: 25px;
 font-weight: 700;
 margin-bottom: 30px; 
 }
+.acordeon .items{
+  list-style-type: none;
+}
+
 
 .acordeon .items .item {
 cursor: pointer;
@@ -58,4 +62,30 @@ margin: 10px 0;
     font-size: 17px;
     width: 90%;
     font-weight: 500;
+}
+
+.item .pergunta:hover{
+  color: #F47C57;
+}
+
+.resposta{
+  display: none;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/*ESTILO DO ITEM QUANDO ACORDEON ESTIVER ATIVO*/
+
+.acordeon .items .item.ativo h2{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.acordeon .items .item.ativo .resposta {
+display: block;
+}
+
+.acordeon .items .item.ativo{
+  background-image: url(../img/icone-seta-aberta.png);
 }
